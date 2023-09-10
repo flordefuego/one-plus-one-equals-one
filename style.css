@@ -1,0 +1,25 @@
+@font-face {
+font-family: "rosesAre";
+src: url("https://cdn.glitch.global/c95b5276-6daf-4dd9-a774-a2afa9ad2787/RosesareFF0000.ttf?v=1693761834273");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: "magenta";
+}
+canvas {
+  display: block;
+      position: fixed;
+    left: 0;
+    top: 0;
+  z-index: -1;
+}
+
+button{
+padding: 5px;
+font-size: 12px;
+font-family:'rosesAre', monospace;
+border: solid magenta;;
+text-decoration: none;  
+}
